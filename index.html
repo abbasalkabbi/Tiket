@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service Ticket System</title>
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    
+<div class="container">
+  <h1>Service Ticket System</h1>
+  <!-- INSTALL -->
+  <div class="ticket-install">
+    <h2>Installation Details</h2>
+    <input type="text" name="install-name" placeholder="Installation Name">
+    <input type="text" name="install-phone" placeholder="Installation Phone">
+    <!-- select-team -->
+    <div class="select-team">
+      <h3>Select Team</h3>
+      <div class="team-option selected" data-team="Team A">Team A</div>
+      <div class="team-option" data-team="Team B">Team B</div>  
+    </div>
+    <button id="submit-install">Submit Installation</button>
+  <!-- END INSTALL -->
+</div>
+<script src="./js/index.js"></script>
 </body>
 </html>

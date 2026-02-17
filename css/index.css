@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container .ticket-install{
+  width: 100%;
+  padding: 20px;
+  background-color: #dbdbdb;
+}
+.container .ticket-install h2{
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #dbdbdb;
+  font-size: 40px;
+  
+}
+.container .ticket-install input{
+  width: 500px;
+  height: 60px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  color: #000;
+  font-weight: bolder;
+  margin:0px  20px;
+  
+}
+.container .ticket-install input:focus{
+  outline: none;
+  box-shadow: 0 0 5px #007BFF;
+}
+.select-team{
+  width: 100%;
+  padding: 0px 20px;
+  background-color: #dbdbdb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.select-team h3{
+  width: 100%;
+  font-size: 30px;
+}
+.team-option{
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  color: #000;
+  font-weight: bolder;
+}
+.team-option:hover{
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+.selected{
+  background-color: #007BFF;
+  color: #fff;
+}
+.selected:hover{
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid #007BFF;
+}
+.container .ticket-install button{
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.container .ticket-install button:hover{
+  background-color: #007BFF;
+  color: #fff;
+}
