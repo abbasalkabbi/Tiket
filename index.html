@@ -12,16 +12,17 @@
   <!-- INSTALL -->
   <div class="ticket-install">
     <h2>Installation Details</h2>
-    <input type="text" name="install-name" placeholder="Installation Name">
-    <input type="text" name="install-phone" placeholder="Installation Phone">
+    <input type="text" name="install-name" oninput="setName(this.value)" placeholder="Installation Name">
+    <input type="text" name="install-phone" oninput="setPhone(this.value)" placeholder="Installation Phone">
     <!-- select-team -->
-    <div class="select-team">
+    <div class="select-team" >
       <h3>Select Team</h3>
-      <div class="team-option selected" data-team="Team A">Team A</div>
-      <div class="team-option" data-team="Team B">Team B</div>  
+      <div class="team-option selected" data-team="Team A" onclick="setTeam('Team A')">Team A</div>
+      <div class="team-option" data-team="Team B" onclick="setTeam('Team B')">Team B</div>  
     </div>
     <button id="submit-install">Submit Installation</button>
   <!-- END INSTALL -->
+
 </div>
 <script src="./js/index.js"></script>
 </body>
