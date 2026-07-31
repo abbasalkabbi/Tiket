@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  
 }
 .container {
   width: 100%;
@@ -15,6 +16,8 @@
   width: 100%;
   padding: 20px;
   background-color: #dbdbdb;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .container .ticket-install h2{
   text-align: center;
@@ -33,7 +36,9 @@
   padding: 10px;
   color: #000;
   font-weight: bolder;
-  margin:0px  20px;
+  margin:10px  20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
   
 }
 .container .ticket-install input:focus{
@@ -62,11 +67,13 @@
   padding: 10px;
   color: #000;
   font-weight: bolder;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .team-option:hover{
   background-color: #007BFF;
   color: #fff;
   cursor: pointer;
+  box-shadow: 0 0 5px #007BFF;
 }
 .selected{
   background-color: #007BFF;
@@ -90,8 +97,10 @@
   color: #fff;
   font-weight: bolder;
   margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .container .ticket-install button:hover{
   background-color: #007BFF;
   color: #fff;
+  box-shadow: 0 0 5px #007BFF;
 }
